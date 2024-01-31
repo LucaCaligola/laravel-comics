@@ -6,7 +6,8 @@
     <title>DC Comics</title>
 
     @vite('resources/js/app.js')
-    
+
+  
 </head>
 <body>
     

@@ -27,14 +27,14 @@
                 <button class="bg-blue text-center">CURRENT SERIES</button>
             </div>
             <div class="row">
-                @foreach ($products as $product)
+                @foreach ($comics as $comic)
                     
                 
                 <div class="col-2 mt-3">
                     <div class="titoli">
-                        <img src=" {{ $product ['thumb'] }}" alt="" class="w-100">
+                        <img src=" {{ $comic ['thumb'] }}" alt="" class="w-100">
                         <p class="text-white">
-                            {{ $product ['title'] }}
+                            {{ $comic ['title'] }}
                         </p>
 
                     </div>

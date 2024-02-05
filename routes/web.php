@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layout/app');
 });
+
+
+Route::get('/', function () {
+    $comics = config('db.comic');
+    return view('layout.app', ['products' => $comics]);
+});
